@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Gedion Mekbeb</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
+    <header class="abc">
+      <nav class="header-nav">
+        <ul class="unordered-header-nav">
           <li>
             <a href="index.html"> HOME </a>
           </li>
@@ -27,17 +28,17 @@
         </ul>
       </nav>
     </header>
-    <hr />
-    <main>
+    <hr class="header-end">
+    <main class="about-main">
       <div class="childhood">
         <h1 id="childhoods">CHILDHOOD</h1>
         <div class="first-childhood">
           <h2 id="first-child">1995-2002</h2>
-          <img
+          <div class="first-child-first">
+            <img
             src="images/baby_picture_1.jpg"
             alt="first baby picture"
-            class="first-childhood-picture"
-          />
+            class="first-childhood-picture">
           <article>
             <h3>
               I was born on 7th of May, 2003 G.C. In the early days of my life,
@@ -47,13 +48,12 @@
               me. Then, I started walking and talking. Then, I got admitted to
               school. I started my kindergarten studies at Olive academy. Then,
               in 2002, I joined
-              <span class="cathedral-school"
-                ><a href="https://lidetacatholiccathedral.com/"
-                  >Lideta Catholic Cathedral School</a
-                ></span
-              >.
+              <span ><a href="https://lidetacatholiccathedral.com/" class="cathedral-school"
+                  >Lideta Catholic Cathedral School</a></span>.
             </h3>
           </article>
+          </div>
+          
           <video
             class="first-childhood-video"
             src="images/video/first.mp4"
@@ -67,11 +67,12 @@
         </div>
         <div class="second-childhood">
           <h2 id="second-child">2003-2008</h2>
-          <img
+          <div class="second-child-second">
+            <img
             src="images/elementary_picture.jpg"
             alt="elementary picture"
             class="second-childhood-picture"
-          />
+          >
           <article>
             <h3>
               During this time, I was a student at LCCS. Then, I got sick twice.
@@ -84,6 +85,7 @@
               and won compitions for it.
             </h3>
           </article>
+          </div>
           <video
             class="second-childhood-video"
             src="images/video/second.mp4"
@@ -97,21 +99,24 @@
         </div>
         <div class="third-childhood">
           <h2 id="third-child">2009-2013</h2>
-          <img
+          <div class="third-class-third">
+            <img
             src="images/high-school_picture.jpg"
             alt="third-childhood-picture"
-          />
-          <article>
-            <h3>
-              In this period of my life, I finished my elementary school and
-              joined high-school. I met amazing friends, started a business
-              learned a lot. I also had a few bad relationships and/or
-              friendships. At first, I dropped my school and forgot about it.
-              Then, my parents told me that I need this and we discussed about
-              it. Then, I went back to school. To be honest, if I could change
-              one thing in life, I would change this part of my life.
-            </h3>
-          </article>
+            class="third-childhood-picture"
+            >
+            <article class="third-child-article">
+              <h3 class="third-child-paragraph">
+                In this period of my life, I finished my elementary school and
+                joined high-school. I met amazing friends, started a business
+                learned a lot. I also had a few bad relationships and/or
+                friendships. At first, I dropped my school and forgot about it.
+                Then, my parents told me that I need this and we discussed about
+                it. Then, I went back to school. To be honest, if I could change
+                one thing in life, I would change this part of my life.
+              </h3>
+            </article>
+          </div>
           <video
             class="third-childhood-video"
             src="images/video/third.mp4"
@@ -124,7 +129,7 @@
           </video>
         </div>
       </div>
-      <hr class="end-childhood-line" />
+      <hr class="end-childhood-line">
       <div class="hoobies">
         <h1 id="hobbies-tag">HOBBIES</h1>
         <div class="hobbies-list">
@@ -218,10 +223,9 @@
           <div class="fourth-hobbie">
             <h2 id="fourth-hobbie-tag">Writing</h2>
             <img
-              src="images/writing.jpg"
+              src="images/writing.jpg" 
               alt="writing picture"
-              class="writing-picture"
-            />
+              class="writing-picture">
             <p class="fourth-hobbie-paragraph">
               Because I read, I write. I have written and read in many
               occations. I have got many comments and it helped me a lot. So, I
@@ -324,11 +328,12 @@
         </div>
       </div>
     </main>
-    <br class="about-end" />
+    <br class="about-end">
     <footer>
       <nav class="about-nav">
-        <p>Goto</p>
-        <ul>
+        <p class="about-goto">Goto</p>
+        <div class="first-list-about"></div>
+        <ul class="about-unordered-nav">
           <li>
             <a href="#childhoods">Childhood</a>
           </li>
@@ -362,7 +367,7 @@
           <li>
             <a href="#sixth-hobbie-tag">Cars</a>
           </li>
-        </ul>
+        </ul>  
       </nav>
     </footer>
   </body>
